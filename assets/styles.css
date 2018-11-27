@@ -1,15 +1,32 @@
-@font-face{
+@font-face
+{
 	font-family: "Walsheim";
 	src: url("GT-Walsheim-Regular.ttf")	
 }
-@keyframes fade{0%{ opacity:0;}100%{ opacity:1;}}
-@keyframes resize-left{
+
+
+@keyframes fade
+{0%{ opacity:0;}100%{ opacity:1;}
+}
+
+
+
+@keyframes resize-left
+{
 	0%{transform: scale(.2,1);}
 	20%{transform: scale(.2,1);}
 	100%{transform: scale(1,1);}
 }
-html{background-image: linear-gradient(to bottom right, rgba(64,72,205,1.00), rgba(213,120,48,1.00));}
-body{/* animation: name duration timing-function delay iteration-count direction fill-mode play-state;*/
+
+
+html
+{
+    background-image: linear-gradient(to bottom right, rgba(61,62,153,1.00), rgba(50,178,9,1.00));
+}
+
+
+body
+{/* animation: name duration timing-function delay iteration-count direction fill-mode play-state;*/
 	animation: fade 2s linear .3s 1;
 	background-color: rgba(111,108,108,0.3); 
 	border-radius: 10px; 
@@ -20,6 +37,8 @@ body{/* animation: name duration timing-function delay iteration-count direction
 	font-family: "Walsheim";
 	position: relative;
 }
+
+
 .navbar{
 	display: flex; 
 	justify-content: space-between; 
